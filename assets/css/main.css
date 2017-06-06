@@ -141,17 +141,26 @@ header{
 }
 
 
-/*------------ SECTION THE TALES ------------*/
+/*------------ SECTION THE VIDEO REDES ------------*/
 
+/* VIDEO */
 .videos-section{
 	background-color: #0F6B87;
+
+}
+
+.videos{
+	display: inline-block;	
+    padding-top: 20px;	
 }
 
 .videos-col{
-	padding: 20px;
+	padding: 5px 0 20px 20px;
+	float: left;
 }
 
 .img-videos{
+	background-color: #E7F5FA;	
 	width: 100%;
 	height: 325px;		
 }
@@ -172,14 +181,14 @@ header{
 	height: 100%;	
 }
 
-.texto-videos h3{
-	padding-top: 5px;
+.texto-videos h3, .texto-redes h3{
+	padding-top: 10px;
 	font-size: 1.4em;
 	color: #FB5E60;	
 
 }
 
-.texto-videos p{
+.texto-videos p, .texto-redes p{
 	text-align: left;
 	line-height: 17px;
 	font-size: 0.9em;
@@ -187,4 +196,57 @@ header{
 	padding: 0 20px;
 
 }
+
+/* REDES */
+.redes-col{
+	float: right;
+	padding: 5px 20px 5px 0;	
+}
+
+.search{
+	width: 100%;
+	height: 90px;
+	background-color: #E7F5FA;
+	border-radius: 0.5em;
+}
+
+input{
+	opacity: 0.6;
+	margin-top: 20px;
+	border: none;
+	padding: 15px 50px;
+	margin-left: 25px;
+	font-size: 20px;	
+
+}
+
+.img-redes{
+	width: 100%;
+	height: 100%;	
+	background-color: #E7F5FA;		
+}
+
+.texto-redes{
+	background-color: #E7F5FA;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+
+}
+
+.redes-sociales .icon-cir{
+	margin: 0 20px 30px 20px;
+}
+
+.icon-cir{
+	background-color: white;
+	border-radius: 50px;
+	width: 25px;
+	height: 25px;
+	padding-left: 3px;
+	padding-top: 6px;
+	color: #0F6B87;
+}
+
+
 
