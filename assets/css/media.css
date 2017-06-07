@@ -1,4 +1,4 @@
-@media (min-width: 426px) and (max-width: 768px){
+@media (min-width: 401px) and (max-width: 768px){
 
 	/*------------ HEADER ------------*/
 	#menu-hamburguesa {
@@ -111,7 +111,7 @@
 }
 
 
-@media (min-width: 1px) and (max-width: 425px){
+@media (min-width: 1px) and (max-width: 400px){
 
 	/*------------ HEADER ------------*/
 	#menu-hamburguesa {
