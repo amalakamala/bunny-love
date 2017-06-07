@@ -33,7 +33,7 @@ header{
 	text-decoration: none;
 	color: white;
 	font-size: 1.7em;
-	padding-left: 140px;
+	padding-left: 160px;
 }
 
 .logo a span{
@@ -48,12 +48,16 @@ header{
 	float: right;
 }
 
+#nav-menu-js{
+	padding-top: 18px;
+}
+
 .nav-menu a{
 	color: white;
 	text-decoration: none;
 	font-size: 0.8em;	
 	font-weight: 200;
-	padding: 0 20px;
+	padding: 0 20px 0 28px;
 }
 
 .nav-menu a:hover{
@@ -115,21 +119,21 @@ header{
 .the-tales{
 	padding: 5px 15px;
 	float: left;
-
 }
 
 .img-tales{
-    width: 210px;
-    height: 120px;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
- }  
+	background-color: #0F6B87;    
+}  
 
 .texto-tales{
 	background-color: #0F6B87;
 	text-align: center;
-	width: 200px;
 	padding: 5px;
-	height: 220px;
+    width: 95%;
+    height: 250px;	
 }
 
 .texto-tales h3{
@@ -263,6 +267,7 @@ input{
 }
 
 .los-conejos{
+	padding-left: 25px;
 	display: inline-block;
 }
 

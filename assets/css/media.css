@@ -5,7 +5,7 @@
 		text-decoration: none;
 		color: white;
 		width: 100%;
-		padding-left: 370px;
+		padding-left: 320px;
 	}
 
 	.logo a{
@@ -39,6 +39,29 @@
 	/*------------ SECTION THE TALES ------------*/
 
 
+
+	.the-tales{
+		padding: 5px 0;
+
+	}
+
+	.img-tales{
+	    width: 100%;
+	    height: 100%;
+	    overflow: hidden;
+		background-color: #0F6B87;	    
+	 } 
+	
+
+	.texto-tales{
+		background-color: #0F6B87;
+		text-align: center;
+	    width: 98%;
+	    height: 100%;
+		padding: 5px;
+
+	}
+
 	/*------------ SECTION THE VIDEO REDES ------------*/
 
 	.videos{
@@ -48,13 +71,13 @@
 	}
 
 	.img-videos{
-		height: 390px;		
+		height: 100%;		
 	}
 
 	.texto-videos{
 		background-color: #E7F5FA;
 		text-align: center;
-		width: 98.4%;
+		width: 98%;
 		height: 100%;
 		padding: 5px;
 
@@ -66,9 +89,12 @@
 
 	/*------------ SECTION LOS CONEJOS ------------*/
 
+	.no-media{
+		display: none;
+	}
 	.conejos{
 		width: 100%;
-		height: 10%;
+		height: 15%;
 	}
 
 	.los-conejos{
@@ -76,14 +102,15 @@
 	}
 
 	.los-conejos img{
-		width: 85px;
+		margin: 0;
+		width: 24%;
 	}
 
 }
 
 
 
-@media (min-width: 768px){
+@media (min-width: 766px){
 	#menu-hamburguesa{
 		display: none;
 	}
