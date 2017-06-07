@@ -1,4 +1,4 @@
-@media screen (min-width: 1px) and (max-width: 768px){
+@media (min-width: 1px) and (max-width: 768px){
 
 	/*------------ HEADER ------------*/
 	#menu-hamburguesa {
@@ -112,7 +112,7 @@
 
 
 
-@media screen (min-width: 769px){
+@media (min-width: 769px){
 	#menu-hamburguesa{
 		display: none;
 	}
