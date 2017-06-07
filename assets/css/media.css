@@ -1,16 +1,18 @@
 @media (min-width: 1px) and (max-width: 768px){
 
 	/*------------ HEADER ------------*/
-	#menu-hamburguesa{
+	#menu-hamburguesa {
 		text-decoration: none;
 		color: white;
 		width: 100%;
-		padding-left: 320px;
+		padding-left: 400px;
+		
 	}
 
 	.logo a{
-		padding-left: 70px;
+		padding-left: 75px;
 	}
+
 
 	.el-hide{
 		display: none;
@@ -110,7 +112,7 @@
 
 
 
-@media (min-width: 766px){
+@media (min-width: 769px){
 	#menu-hamburguesa{
 		display: none;
 	}
